@@ -1,0 +1,100 @@
+#container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    list-style-type: none;
+    position: relative;
+}
+
+#chirpusinctitle{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    width: 50%
+}
+
+#footer{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.navitem{
+    margin: 10px;
+}
+
+.content{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+#paragraph{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+}
+
+#circles{
+    position: relative;
+    display: flex;
+    width:50%;
+}
+
+#firstcircle{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background: magenta;
+    border-radius: 50%;
+    top: 15%;
+}
+
+#secondcircle{
+    position: absolute;
+    display:flex;
+    width: 150px;
+    height: 150px;
+    background: purple;
+    border-radius: 50%;
+    top: 20%;
+    left:30%;
+    opacity: 0.5;
+}
+
+#thirdcircle{
+    position: absolute;
+    display:flex;
+    width: 200px;
+    height: 200px;
+    background: pink;
+    border-radius: 50%;
+    bottom:15%;
+    left:25%;
+    opacity: 0.5;
+}
+
+.whitewordsblackbackground{
+    color:white;
+    background-color: black;
+    
+}
+
+#headerorganizer{
+    display: flex;
+    flex-direction: row;
+}
